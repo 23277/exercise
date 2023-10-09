@@ -11,7 +11,29 @@ public class quizs {
         System.out.println("Printer App");
 
         // Step 3
-        Sys
+        public static void main(String[] args) {
+    		// TODO Auto-generated method stub
+    		String creator = "Your Name";
+
+            // print printer App
+            System.out.println("Printer App");
+
+            // Step 3
+            System.out.println("This app is made by:");
+
+            // S
+            System.out.print("This app is made by: ");
+            System.out.println(creator);
+
+            // Step 6
+            int number1 = 5;
+            int number2 = 2;
+            // print the value of the number
+            // Step 8
+            System.out.println("The value of number1 is " + number1);
+
+            // adding of numbers
+            System.out.println("The value of number2 is " + number2);
 	}
 
 }
