@@ -34,6 +34,24 @@ public class quizs {
 
             // adding of numbers
             System.out.println("The value of number2 is " + number2);
+            int multiplication = number1 * number2;
+
+            // Step 12
+            System.out.println(number1 + " * " + number2 + " = " + multiplication);
+
+            // Repeat 10-12 for addition, division, and subtraction
+            int addition = number1 + number2;
+            System.out.println(number1 + " + " + number2 + " = " + addition);
+
+            double divisionResult = (double) number1 / number2;
+            System.out.println(number1 + " / " + number2 + " = " + divisionResult);
+
+            int subtraction = number1 - number2;
+            System.out.println(number1 + " - " + number2 + " = " + subtraction);
+        }
+    }
+
+
 	}
 
 }
